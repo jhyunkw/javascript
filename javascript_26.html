@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		var a=ParseFloat("10");
+		var b=ParseFloat("10.3");
+		var c=ParseFloat("10 20 30");
+		var d=ParseFloat("10 years");
+		var e=ParseFloat("years 10");
+		console.log(typeof(a)+":"+a);//number:10
+		console.log(typeof(b)+":"+b);//number:10
+		console.log(typeof(c)+":"+c);//number:10
+		console.log(typeof(d)+":"+d);//number:10
+		console.log(typeof(e)+":"+e);//number:NaN
+	</script>
+</head>
+<body>
+</body>
+</html>
